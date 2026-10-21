@@ -1,0 +1,14 @@
+# Carpeta privada (cartas firmadas, convocatoria, rúbrica)
+administrativo/
+
+# Datos originales del INE (4 GB, se descargan de la Plataforma CCPC)
+Datos/datos_ine/*
+!Datos/datos_ine/.gitkeep
+
+# Archivos del sistema y de Python
+desktop.ini
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
