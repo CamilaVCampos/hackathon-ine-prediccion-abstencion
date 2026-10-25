@@ -1,9 +1,14 @@
 # Carpeta privada (cartas firmadas, convocatoria, rúbrica)
 administrativo/
 
-# Datos originales del INE (4 GB, se descargan de la Plataforma CCPC)
+# Datos originales del INE (3.5 GB sin comprimir): solo se versionan los .zip por elección
 Datos/datos_ine/*
 !Datos/datos_ine/.gitkeep
+!Datos/datos_ine/README.md
+!Datos/datos_ine/*.zip
+
+# CSV concatenado (3.1 GB): demasiado grande para git, se sube comprimido
+Datos/datos_procesados/concatenacion_2009-2024.csv
 
 # Archivos del sistema y de Python
 desktop.ini
