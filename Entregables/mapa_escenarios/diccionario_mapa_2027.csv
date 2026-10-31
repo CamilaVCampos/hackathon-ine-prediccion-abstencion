@@ -1,0 +1,31 @@
+﻿COLUMNA,DESCRIPCION
+CVEGEO,Clave de INEGI del municipio (2 dígitos de estado y 3 de municipio).
+NOM_ENT,Nombre del estado según INEGI.
+NOMGEO,Nombre del municipio según INEGI.
+AGRUPADO,"Sí si el dato corresponde a dos municipios de INEGI con el mismo nombre que nuestra base no distingue (San Juan Mixtepec y San Pedro Mixtepec, Oaxaca)."
+EN_BASE,No si el polígono no existe en nuestra base (Villa de Pozos); sus columnas de resultados quedan vacías.
+ESTADO,Estado del municipio.
+MUNICIPIO,Nombre del municipio (se identifica junto con ESTADO).
+ELECCIONES,"Número de elecciones (de las 6, 2009-2024) en que el municipio tiene datos."
+CONFIANZA,"Respaldo del pronóstico: Alta (6 elecciones), Media (5 con 2024), Baja (1 a 4 con 2024) o Sin pronóstico (sin 2024)."
+PERSONAS_2024,Personas (votaron o no) del municipio en 2024; se usa como tamaño en 2027.
+PRON_SIN,Abstención pronosticada para 2027 sin intervención (proporción de 0 a 1; gradient boosting).
+SEMAFORO_SIN,"Color sin intervención: Verde, Amarillo o Rojo (terciles del pronóstico) o Sin datos suficientes."
+ABSTENCIONISTAS_ESP,Personas de 2024 por abstención pronosticada: personas que no votarían sin intervención.
+PRIORIDAD,"Lugar del municipio por ABSTENCIONISTAS_ESP, de mayor a menor (1 = más gente por convencer)."
+PRELIMINAR,Sí si la confianza es Baja (pronóstico preliminar); No en otro caso.
+PRON_CON_1,Abstención pronosticada con una intervención hipotética que la baja 1 punto(s) porcentual(es); no baja de 0.
+SEMAFORO_CON_1,"Color con 1 punto(s) de efecto, con los mismos umbrales del escenario sin intervención."
+PERSONAS_ADIC_1,Personas más que votarían con 1 punto(s) de efecto (personas de 2024 por los puntos que baja la abstención).
+PRON_CON_2,Abstención pronosticada con una intervención hipotética que la baja 2 punto(s) porcentual(es); no baja de 0.
+SEMAFORO_CON_2,"Color con 2 punto(s) de efecto, con los mismos umbrales del escenario sin intervención."
+PERSONAS_ADIC_2,Personas más que votarían con 2 punto(s) de efecto (personas de 2024 por los puntos que baja la abstención).
+PRON_CON_3,Abstención pronosticada con una intervención hipotética que la baja 3 punto(s) porcentual(es); no baja de 0.
+SEMAFORO_CON_3,"Color con 3 punto(s) de efecto, con los mismos umbrales del escenario sin intervención."
+PERSONAS_ADIC_3,Personas más que votarían con 3 punto(s) de efecto (personas de 2024 por los puntos que baja la abstención).
+PRON_CON_4,Abstención pronosticada con una intervención hipotética que la baja 4 punto(s) porcentual(es); no baja de 0.
+SEMAFORO_CON_4,"Color con 4 punto(s) de efecto, con los mismos umbrales del escenario sin intervención."
+PERSONAS_ADIC_4,Personas más que votarían con 4 punto(s) de efecto (personas de 2024 por los puntos que baja la abstención).
+PRON_CON_5,Abstención pronosticada con una intervención hipotética que la baja 5 punto(s) porcentual(es); no baja de 0.
+SEMAFORO_CON_5,"Color con 5 punto(s) de efecto, con los mismos umbrales del escenario sin intervención."
+PERSONAS_ADIC_5,Personas más que votarían con 5 punto(s) de efecto (personas de 2024 por los puntos que baja la abstención).

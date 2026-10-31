@@ -8,7 +8,10 @@ Datos/datos_ine/*
 !Datos/datos_ine/*.zip
 
 # CSV concatenado (3.1 GB): demasiado grande para git, se sube comprimido
-Datos/datos_procesados/concatenacion_2009-2024.csv
+Datos/datos_procesados/concatenacion/concatenacion_2009-2024.csv
+
+# Marco Geoestadístico de INEGI (5.6 GB de shapefiles): solo se usa para generar el GeoJSON del mapa
+Datos/mapa/
 
 # Archivos del sistema y de Python
 desktop.ini

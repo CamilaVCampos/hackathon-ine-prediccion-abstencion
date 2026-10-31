@@ -7,7 +7,7 @@ Modelo simple de riesgo de abstención por territorio, con escenarios sin y con 
 | Carpeta | Contenido |
 |---|---|
 | `Datos/datos_ine/` | Conteos Censales de Participación Ciudadana 2009-2024, un `.zip` por elección (ver su [README](Datos/datos_ine/README.md)) |
-| `Datos/datos_procesados/` | Tablas intermedias (CSV concatenado y diccionario de municipios) |
+| `Datos/datos_procesados/` | Tablas intermedias por etapa (`concatenacion/`, `limpieza/`, `tratamiento/`, `modelo/`), cada una con su `diccionario.txt` |
 | `notebooks/concatenacion/` | Une los CSV del INE en un solo archivo |
 | `notebooks/eda/` | Exploración de los datos |
 | `notebooks/limpieza/` | Limpieza y agregación por municipio |
@@ -31,6 +31,6 @@ Para usarlos, descomprímelos en esa misma carpeta; las instrucciones y la descr
 [Datos/datos_ine/README.md](Datos/datos_ine/README.md).
 
 ## Orden de los notebooks
-1. `notebooks/concatenacion/concatenacion_2009-2024.ipynb`: genera `Datos/datos_procesados/concatenacion_2009-2024.csv`.
+1. `notebooks/concatenacion/concatenacion_2009-2024.ipynb`: genera `Datos/datos_procesados/concatenacion/concatenacion_2009-2024.csv`.
 2. `notebooks/eda/eda.ipynb`: exploración de ese CSV.
-3. `notebooks/limpieza/limpieza.ipynb`: genera la base anonimizada por municipio (`Entregables/4_base_anonimizada/base_anonimizada_abstencion.csv`) y el diccionario de municipios (`Datos/datos_procesados/diccionario_municipios.csv`).
+3. `notebooks/limpieza/limpieza.ipynb`: genera la base anonimizada por municipio (`Entregables/4_base_anonimizada/base_anonimizada_abstencion.csv`) y los nombres de municipios unificados (descritos en `Datos/datos_procesados/limpieza/diccionario.txt`).

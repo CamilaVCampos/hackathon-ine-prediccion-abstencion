@@ -1,0 +1,14 @@
+concatenacion_2009-2024.csv
+  AELEC       Año de la elección.
+  FELECCION   Fecha de la elección (el formato no es uniforme).
+  EDONOM      Nombre del estado.
+  MPIONOM     Nombre del municipio.
+  SECCION     Número de sección electoral.
+  DEF         Distrito electoral federal (vacío en algunas secciones de 2009 y 2012).
+  TIPOSEC     Tipo de sección (U urbana, M mixta, R rural).
+  SEXO        Sexo (0 = hombre, 1 = mujer).
+  EDAD        Edad en años.
+  LN          Personas en la lista nominal.
+  SV          Registros con marca de voto.
+  NV          Registros sin marca de voto.
+  NS          Registros sin información (no se sabe si votaron).

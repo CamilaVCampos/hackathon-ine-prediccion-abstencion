@@ -1,0 +1,7 @@
+base_tratada.csv
+  AELEC, FELECCION, ESTADO, MUNICIPIO   Igual que en base_limpia.csv.
+  SV, NV, NS, ABSTENCION, CALIDAD_NS    Igual que en base_limpia.csv.
+  TIPO_Intermedia, TIPO_Presidencial    1 si la elección es de ese tipo, 0 si no.
+  SEXO_Hombre, SEXO_Mujer               1 si el grupo es de ese sexo, 0 si no.
+  EDAD_18-29 ... EDAD_90 o más          1 si el grupo es de ese rango de edad, 0 si no (8 columnas).
+  SEC_Mixto, SEC_Rural, SEC_Urbano      1 si la sección es de ese tipo, 0 si no.
