@@ -12,8 +12,9 @@ Datos/datos_procesados/limpieza/base_limpia.csv
 Datos/datos_procesados/tratamiento/base_tratada.csv
 Entregables/base_anonimizada/base_limpia.csv
 
-# CSV concatenado (3.1 GB): demasiado grande para git, se sube comprimido
+# CSV concatenado (3.1 GB): se sube comprimido y partido en 3 archivos de menos de 100 MB (.zip.001, .002 y .003)
 Datos/datos_procesados/concatenacion/concatenacion_2009-2024.csv
+Datos/datos_procesados/concatenacion/concatenacion_2009-2024.zip
 
 # Marco Geoestadístico de INEGI (5.6 GB de shapefiles): solo se usa para generar el GeoJSON del mapa
 Datos/mapa/

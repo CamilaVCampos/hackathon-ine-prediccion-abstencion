@@ -51,5 +51,10 @@ El notebook 9 necesita el archivo `mg_2025_integrado.zip` del Marco Geoestadíst
 
 ## Archivos grandes
 - `base_limpia.csv` y `base_tratada.csv` pesan unos 49 MB cada uno, así que en el repositorio están comprimidos: `Datos/datos_procesados/limpieza/base_limpia.zip`, `Datos/datos_procesados/tratamiento/base_tratada.zip` y `Entregables/base_anonimizada/base_limpia.zip`. Descomprímelos en su misma carpeta para usarlos. Los notebooks también los regeneran.
-- `concatenacion_2009-2024.csv` (3.1 GB) y `Datos/mapa/` (5.6 GB) no se suben; el primero se regenera con el notebook 1 y el segundo se descarga de INEGI.
+- `concatenacion_2009-2024.csv` (3.1 GB) está comprimido y partido en tres archivos de menos de 100 MB, el límite de GitHub: `Datos/datos_procesados/concatenacion/concatenacion_2009-2024.zip.001`, `.002` y `.003`. Para recuperarlo, únelos y descomprime el resultado:
+  - Windows (CMD): `copy /b concatenacion_2009-2024.zip.001+concatenacion_2009-2024.zip.002+concatenacion_2009-2024.zip.003 concatenacion_2009-2024.zip`
+  - Linux o Mac: `cat concatenacion_2009-2024.zip.00* > concatenacion_2009-2024.zip`
+  
+  También se regenera con el notebook 1.
+- `Datos/mapa/` (5.6 GB, Marco Geoestadístico de INEGI) no se sube; se descarga de INEGI.
 - Las rutas que aparecían en las salidas de los notebooks se reemplazaron por `<raiz>`.
