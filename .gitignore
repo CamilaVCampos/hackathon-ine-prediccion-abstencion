@@ -1,11 +1,16 @@
 # Carpeta privada (cartas firmadas, convocatoria, rúbrica)
-administrativo/
+Administrativo/
 
 # Datos originales del INE (3.5 GB sin comprimir): solo se versionan los .zip por elección
 Datos/datos_ine/*
 !Datos/datos_ine/.gitkeep
 !Datos/datos_ine/README.md
 !Datos/datos_ine/*.zip
+
+# CSV de ~49 MB: se suben comprimidos (.zip) para no pasar el aviso de 50 MB de GitHub
+Datos/datos_procesados/limpieza/base_limpia.csv
+Datos/datos_procesados/tratamiento/base_tratada.csv
+Entregables/base_anonimizada/base_limpia.csv
 
 # CSV concatenado (3.1 GB): demasiado grande para git, se sube comprimido
 Datos/datos_procesados/concatenacion/concatenacion_2009-2024.csv
